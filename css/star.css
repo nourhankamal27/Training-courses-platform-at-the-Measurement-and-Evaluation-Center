@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Lalezar&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Tajawal:wght@300;700&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* new page */
+body {
+    direction: rtl;
+    font-family: "Tajawal", sans-serif;
+    text-align: right;
+    padding-top: 0%;
+    padding: 0 20px;
+    
+}
+
+
+
+
+
+.rat{
+    width: 250px;
+    background: rgb(255, 255, 255);
+    padding: 5px 5px;
+    /* border: 1px solid #444; */
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.rat .rating input{
+    display: none;
+}
+
+
+
+.rating label{
+    font-size: 20px;
+    color: #444;
+    display: inline-block;
+   /* float: right; */
+   transition: all 0.2s ease;
+   padding: 1px ;
+ 
+
+}
+
+/* .rating input{
+    transition: all 0.2s ease;
+} */
+
+input:not(:checked) ~ label:hover,
+input:not(:checked)~ label:hover ~ label{
+    color: #fd4;
+}
+input:checked ~ label{
+    color: #fd4;
+}
+
+
+input#star1 :checked  ~ label{
+    color: #fd4;
+    text-shadow: 0 0 20px #952;
+}
+
+
+.tc_price{
+    color: steelblue;
+    font-size: 19px;
+    padding-left: 10px;
+    text-align: left;
+    padding-right: 10px;
+    padding-bottom: 5px;
+
+
+}

@@ -1,0 +1,136 @@
+/* small */
+@media (min-width: 768px) {
+    .container {
+        width:1341px;
+    }
+}
+/*med screen*/
+@media (min-width: 992px) {
+    .container {
+        width:1341px;
+    }
+}
+/*large screen*/
+@media (min-width: 1200px) {
+    .container {
+        width: 1170px;
+    }
+}
+/* nav bar */
+@media (min-width: 765px) {
+    nav #open-nav,
+    nav ul #close-nav {
+        display: none;
+    }
+    nav ul.nav-links {
+        display: flex;
+        background-color: transparent;
+        width: fit-content;
+        height: 50px;
+        min-height: unset;
+        transform: translateX(0);
+        position: static;
+        align-items: center;
+        -webkit-transform: translateX(0);
+        -moz-transform: translateX(0);
+        -ms-transform: translateX(0);
+        -o-transform: translateX(0);
+        flex-direction: row;
+    }
+
+    nav ul li {
+        margin: 0 20px 0 0;
+    }
+    nav ul li a {
+        font-size: 25px;
+        margin-right: 131px;
+        text-align: center;
+        
+    }
+}
+
+/* navbar section */
+/*
+===================================
+============ Courses page =========
+===================================
+  */
+/* start main section */
+@media (max-width: 500px) {
+    main .heading figcaption span {
+        font-size: 18px;
+    }
+}
+@media (max-width: 840px) {
+    main .content {
+        flex-direction: column;
+    }
+    main .content_left,
+    main .content_right {
+        width: 100%;
+    }
+    main .content_right {
+        margin-bottom: 20px;
+    }
+    main .content_right h3 {
+        text-align: center;
+    }
+}
+@media (max-width: 560px) {
+    main .heading figcaption {
+        flex-direction: column;
+    }
+    main .heading figcaption span,
+    main .heading figcaption a {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}
+@media (max-width: 800px) {
+    main .about p {
+        text-align: center;
+    }
+}
+/* end main section */
+/* list-----section one */
+.total {
+    min-height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.total .container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+@media (max-width: 991px) {
+    .home-item h2 {
+        font-size: 30px;
+        line-height: 1.5;
+    }
+}
+/* end list section 1 */
+
+.test__bank .container .thumb img {
+    width: 100%;
+    height: 25vh;
+}
+
+@media (max-width: 992px) {
+    .text__bank .container .thumb img {
+        height: 40vh;
+    }
+}
+.row_2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* start specialist section */
+.specialist .row > div {
+    margin-bottom: 20px;
+    
+}
+a:hover{text-decoration:none;}

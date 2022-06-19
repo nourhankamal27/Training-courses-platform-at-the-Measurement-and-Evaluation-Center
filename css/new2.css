@@ -1,0 +1,129 @@
+section {
+    padding: 60px 0;
+    position: relative;
+}
+
+.row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-left: -15px;
+    margin-right: -15px;
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.emply-text-sec {
+    float: right;
+    width: 100%;
+}
+
+.col-xl-3,
+.col-xl-auto {
+    position: relative;
+    /* width: 100%; */
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.col-md-5 {
+    position: relative;
+    width: 600px;
+    padding-left: 15px;
+    padding-right: 15px;
+    max-width: 100%;
+    margin: auto;
+}
+/* .img-whp{
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-right: 10px;
+} */
+
+ccn-courses-grid-block .top_courses {
+    border: 1px solid rgb(219, 225, 229);
+    border-radius: 5px;
+    box-shadow: none;
+}
+
+.top_courses {
+    background-color: rgb(255, 255, 255);
+    border: 2px solid rgb(238, 238, 238);
+    border-radius: 5px;
+    margin-bottom: 30px;
+    overflow: hidden;
+    position: relative;
+    border-radius: 1.5rem;
+    transition: all 0.3s ease 0s;
+
+}
+.top_courses:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+.top_courses .details {
+    position: relative;
+}
+
+.top_courses .details .tc_content {
+    padding: 20px;
+}
+
+.ccn-courses-grid-block-1 .top_courses .tc_footer {
+    position: relative !important;
+}
+.ccn-courses-grid-block .top_courses .tc_footer {
+    border-color: rgb(219, 225, 229);
+}
+.top_courses:not(.list) .tc_footer {
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+    height: 50px;
+}
+.top_courses .tc_footer {
+    border-top: 1px solid rgb(238, 238, 238);
+    display: flow-root;
+    padding: 10px 20px;
+    position: relative;
+}
+
+.top_courses .tc_footer .tc_price {
+    color: rgb(141, 31, 40);
+    font-size: 18px;
+    font-weight: 600;
+    font-family: cocoonCustomPrimary;
+}
+.float-right {
+    float: left !important;
+}
+a {
+    color: #8d1f28;
+    text-decoration: none;
+    -webkit-font-smoothing: antialiased;
+}
+a {
+    color: #0d638f;
+    text-shadow: none;
+}
+.tc_footer i {
+    color: #fdc93b;
+    font-size: 0.9rem;
+}
+.btn-block {
+    text-decoration: none;
+    color: rgb(21, 21, 100);
+    font-size: 16px;
+    font-weight: 500;
+    transition: 0.3s ease;
+}
+.btn-block:hover {
+    color: #fdc93b;
+}
+a:hover{text-decoration:none;}
